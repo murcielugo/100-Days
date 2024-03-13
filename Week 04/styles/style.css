@@ -21,13 +21,20 @@ img {
     margin: 50px auto;
 }
 
+ol {
+    padding-left: 10px;
+}
+
 li {
     list-style: none;
     margin-top: 10px;
+    padding-left: 6px;
 }
 
 .hl-list{
-    list-style: outside;
+    /* list-style: outside; */
+    padding-left: 3px;
+    border-left: 3px solid goldenrod;
 }
 
 h1 {
