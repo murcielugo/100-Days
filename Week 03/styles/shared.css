@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgb(233, 221, 239);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 span {
+    margin: 20px auto;
+    color: rgb(57, 3, 3);
+    display: inline-block;
+}
+
+main > p {
+    font-size: 50px;
+}
