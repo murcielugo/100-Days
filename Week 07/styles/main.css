@@ -1,0 +1,98 @@
+#hero {
+    height: 800px;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+    background-image: url("/Week 07/images/ocean.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+#hero-content {
+    margin: 0 auto;
+    padding: 50px 50px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    background-color: rgba(39, 41, 41, 0.8);
+}
+
+#hero-content h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+}
+
+#hero-content p {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px auto 30px auto;
+}
+
+#hero-content a {
+    background-color: rgb(255, 238, 0);
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 12px 20px;
+}
+
+#hero-content a:hover {
+    background-color: rgb(255, 196, 0);
+}
+
+#highlights {
+    list-style: none;
+    text-align: center;
+    padding: 24px;
+    background: linear-gradient(180deg, rgb(202, 243, 240),rgb(227, 255, 253));
+}
+
+#highlights h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(59, 65, 64);
+    font-size: 40px;
+    margin: 24px 0;
+    /* position: relative;
+    left:40px; */
+}
+
+#destinations {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.destination {
+    padding: 0 20px;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 1px 2px 4px black;
+}
+
+.destination p {
+font-size: 24px;
+text-transform: uppercase;
+margin: 20px auto;
+color: rgb(124, 123, 144);
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
+}
